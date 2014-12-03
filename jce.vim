@@ -69,4 +69,7 @@ endif
 
 let b:splell_options="contained"
 
+" Set highlight jce
+autocmd BufRead *.jce set filetype=jce
+
 
